@@ -1,0 +1,43 @@
+{
+  "name": "softec-nextjs-update",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rm -rf node_modules package-lock.json yarn.lock .next",
+    "lint": "next lint"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@hookform/resolvers": "^5.2.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "gsap": "^3.13.0",
+    "next": "^16.2.4",
+    "react": "19.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.67.0",
+    "react-intersection-observer": "^10.0.0",
+    "react-slick": "^0.31.0",
+    "react-use": "^17.6.0",
+    "sass": "^1.94.2",
+    "slick-carousel": "^1.8.1",
+    "split-text": "^1.0.0",
+    "swiper": "^12.0.3",
+    "wow.js": "^1.2.2",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.8.32",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.0.5",
+    "typescript": "^5.9.3"
+  }
+}
